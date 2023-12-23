@@ -12,7 +12,7 @@ var app = new Vue({
         //         String(date.getSeconds())
         //     )
         // },
- 
+
         slugetize: function () {
             return this.slugText
                 .toLowerCase()
@@ -24,7 +24,7 @@ var app = new Vue({
         now: function () {
             var date = new Date();
             return (
-                String(date.getHours()) + 
+                String(date.getHours()) +
                 String(date.getMinutes()) +
                 String(date.getSeconds())
             )
